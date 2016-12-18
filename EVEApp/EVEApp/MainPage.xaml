@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="EVEApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EVEApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,-18,0">
+        <TextBox x:Name="humidityText" HorizontalAlignment="Left" Height="28" Margin="50,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="76" -/>
+        <TextBox x:Name="tempText" HorizontalAlignment="Left" Height="28" Margin="168,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="76" RenderTransformOrigin="2.14,0.531"/>
+        <TextBox x:Name="lightText" HorizontalAlignment="Left" Height="28" Margin="294,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="76" RenderTransformOrigin="2.14,0.531"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="32" Margin="12,61,0,0" VerticalAlignment="Top" Width="33" Source="Assets/humidity.png" />
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="32" Margin="131,61,0,0" VerticalAlignment="Top" Width="32" Source="Assets/temp.png"/>
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="32" Margin="257,61,0,0" Source="Assets/light.png"/>
+    </Grid>
+</Page>

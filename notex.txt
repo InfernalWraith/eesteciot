@@ -1,0 +1,8 @@
+cortana intelligence library
+stratisfied -> da bude fino randomizirano 
+uvijek pravi novu sobu
+
+
+NuGet packages to install
+    azure devices nuget
+    devices client 
